@@ -3,7 +3,7 @@ FROM hypriot/rpi-alpine as build-stage
 
 MAINTAINER Soeren Stelzer
 
-ENV KAPACITOR_VERSION 1.3.1
+ENV VERSION 1.3.1
 ENV KAPACITOR_FILE kapacitor-${KAPACITOR_VERSION}_linux_armhf.tar.gz
 ENV KAPACITOR_URL https://dl.influxdata.com/kapacitor/releases/${KAPACITOR_FILE}
 
